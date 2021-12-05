@@ -21,10 +21,10 @@ function App() {
       <Router>
       
       <Route exact path="/" component={Home}/>
-      {/* <Route exact path="#about" component={About}/>
+      <Route exact path="#about" component={About}/>
       <Route exact path="#services" component={Services}/>
       <Route exact path="#gallary" component={Gallary}/>
-      <Route exact path="#contact" component={Contact}/> */}
+      <Route exact path="#contact" component={Contact}/>
       {/* <About/>
       <Services/>
       <Gallary/>
