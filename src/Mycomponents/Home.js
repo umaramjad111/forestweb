@@ -8,6 +8,7 @@ export default function Home() {
     return (
         <div id="home">
             <Navbar/>
+            <Navbar/>
             <About/>
             <Services/>
             <Gallary/>
