@@ -7,7 +7,7 @@ import Contact from './Contact'
 export default function Home() {
     return (
         <div id="home" >
-            <Navbar/>
+           
             <About/>
             <Services/>
             <Gallary/>
