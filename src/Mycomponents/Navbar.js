@@ -10,7 +10,7 @@ export default function Navbar() {
 
         {/* bg-transparent  */}
          
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top navback pt-0">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top pt-0">
   <div className="container-fluid">
     <Link className="navbar-brand text-white fw-bold fs-3" smooth to="#home">DarkPond Woods 
     <i className="fas fa-tree text-white ms-2"></i></Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active text-white" aria-current="page" smooth to="#home">Home</Link>
+          <Link className="nav-link text-white active" aria-current="page" smooth to="#home">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link text-white" smooth to="#about">About</Link>

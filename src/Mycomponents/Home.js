@@ -6,8 +6,8 @@ import Gallary from './Gallary'
 import Contact from './Contact'
 export default function Home() {
     return (
-        <div id="home" >
-           
+        <div id="home">
+            <Navbar/>
             <About/>
             <Services/>
             <Gallary/>

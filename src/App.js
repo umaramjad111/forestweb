@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <>
      
       <Navbar/>
       <Route exact path="/" component={Home}/>
@@ -31,7 +31,8 @@ function App() {
       <Contact/> */}
       <Footer/>
     
-    </div>
+    </>
+  
   );
 }
 
