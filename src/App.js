@@ -7,6 +7,7 @@ import Services from './Mycomponents/Services';
 import Gallary from './Mycomponents/Gallary';
 import Contact from './Mycomponents/Contact';
 import Footer from './Mycomponents/Footer';
+import Navbar from './Mycomponents/Navbar';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +19,7 @@ function App() {
   return (
     <div>
       <Router>
-      
+      <Navbar/>
       <Route exact path="/" component={Home}/>
       <Route exact path="#about" component={About}/>
       <Route exact path="#services" component={Services}/>
