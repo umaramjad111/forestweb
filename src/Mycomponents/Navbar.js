@@ -10,7 +10,7 @@ export default function Navbar() {
 
         {/* bg-transparent  */}
          
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top pt-0">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top navback pt-0">
   <div className="container-fluid">
     <Link className="navbar-brand text-white fw-bold fs-3" smooth to="#home">DarkPond Woods 
     <i className="fas fa-tree text-white ms-2"></i></Link>
